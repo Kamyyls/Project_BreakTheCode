@@ -1,0 +1,735 @@
+/* HEADER */
+header{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pfp_utilisateur {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+
+.petit_logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.button button5{
+    height: 15px;
+    width: 15px;
+}
+
+/* Styles communs pour plusieurs éléments */
+.zone_titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.Titre {
+    color: #000;
+    font-family: Inter;
+    font-size: 250%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0%;
+}
+
+.Sous_Titre {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 2%;
+}
+
+.Formulaire_Etape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pure-input-rounded {
+    width: 40%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    border: 3px solid black;
+}
+
+.pure-input-rounded-name {
+    width: 45%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    border: 3px solid black;
+}
+
+.boutonRetour {
+    background-color: E3E3E3;
+    color: #C3C3C3;
+    border: solid #c3c3c3;
+    border-radius: 20px;
+    border-color: #C3C3C3;
+    width: 40px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.zone_Boutons_Send_ou_Back {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+.condition {
+    color: #E26868;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    line-height: 2;
+    margin: 0;
+}
+
+.Conditions_mdp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2px;
+    margin-bottom: 2%;
+}
+
+.Inscription3 {
+    display: flex;
+}
+
+.condition.valid {
+    color: green;
+}
+
+/* Styles spécifiques à certaines pages */
+.zone_logo {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+.zone_logo_connexion {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.zone_logo_inscription {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.zone_bouton {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.zone_bouton_texte {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+.zone_bouton_redirection_inscription {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.zone_bouton2 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.boutonJouer {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    outline: none;
+}
+
+.boutonArrondiTransparent {
+    background-color: white; !important;
+    color: black;
+    border-radius: 30px;
+    border-color: white;
+    height: 50px;
+    width: 150px;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
+    margin-right: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    outline: none;
+}
+
+.header_deco{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.zone_bouton_centre{
+    display: flex;
+    justify-content: center;
+}
+
+.boutonTexte {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #AFB1B6;
+    text-decoration: underline;
+}
+
+.logo_gros {
+    width: 75%;
+    height: 40%;
+}
+
+.logo_inscription {
+    width: 25%;
+    height: 10%;
+}
+
+.gros_titre {
+    color: #000;
+    font-family: Inter;
+    font-size: 250%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.petit_titre {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.zone_titre_inscription{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.zone_titresPage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.zone_choixBoutons {
+    display: flex;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+
+.button5 {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button5:hover {
+    background-color: rgba(215, 215, 215, 0.54);
+}
+
+.button5:active {
+    border-color: black;
+    border-width: 10px;
+}
+
+.boutonRondChoix {
+    height: 10%;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.boutonsChoix {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.zone_boutonSuivant {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5%;
+}
+
+.boutonSuivant {
+    background-color: black;
+}
+
+/* Styles spécifiques à la page d'inscription */
+.Formulaire_connexion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.form_deux_boutons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_un_bouton{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bouton_carre{
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /*POLICE*/
+    color: #000;
+    font-family: Inter;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0%;
+
+}
+
+.bouton_rectangle{
+    border-radius: 50px;
+    height: 150px;
+    width: 560px;
+    /*POLICE*/
+    color: #000;
+    font-family: Inter;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0%;
+}
+
+.zone_choix_accueil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.error-message{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+/* SLIDER REGLES */
+#slider {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#slider input[type=radio] {
+    display: none;
+}
+#slider label {
+    cursor:pointer;
+    text-decoration: none;
+}
+#slides {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+#slide1:checked ~ #slides .inner {
+    margin-left: 0;
+}
+#slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+}
+#slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+}
+#slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+}
+#slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 400px;
+}
+#slides .slide {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    color: #fff;
+}
+#slides .slide_1 {
+    background: #ffe992;
+}
+#slides .slide_2 {
+    background: #ffe992;
+}
+#slides .slide_3 {
+    background: #ffe992;
+}
+#slides .slide_4 {
+    background: #ffe992;
+}
+#controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+#controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+#controls label:hover {
+    opacity: 1;
+}
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+#slide1:checked ~ #controls label:nth-last-child(2),
+#slide2:checked ~ #controls label:nth-last-child(3),
+#slide3:checked ~ #controls label:nth-last-child(4),
+#slide4:checked ~ #controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+#bullets {
+    margin: 150px 0 0;
+    text-align: center;
+}
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+    background: #FBE46C;
+}
+@media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+        margin: 0;
+    }
+    #slides {
+        max-width: calc(100% - 140px);
+        margin: 0 auto;
+    }
+}
+
+/*PAGE PARTIE*/
+.cartes-question {
+    width: 180px;
+    height: 90px;
+    transition: transform 0.3s ease-in-out; /* Ajoute une transition fluide sur la propriété transform */
+}
+
+.cartes-question-choisie {
+    width: 300px;
+    height: 170px;
+    transition: transform 0.3s ease-in-out; /* Ajoute une transition fluide sur la propriété transform */
+}
+
+.cartes-question:hover {
+    transform: translateY(-10px); /* Déplace la carte vers le haut de 5 pixels au survol */
+    border-width: 5px;
+    border-color: aqua;
+}
+
+.alignement-carte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.alignement-carte-joueur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.selection-cartes-adversaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.zone-tuiles{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.zone-tuile-joueur{
+    display: flex;
+    flex-direction: column;
+}
+
+.zone-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+.icon-small{
+    width: 50px;
+    height: 50px;
+}
+
+.reponse-question {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 4%;
+    justify-content: flex-start;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    height: 20%;
+    padding: 5px;
+}
+
+.zone-texte {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 7%;
+    justify-content: flex-start;
+    border-width: 3px;
+    border-color: black;
+    height: 20%;
+    padding: 5px;
+}
+
+#zoneTexte {
+    resize: none;
+    width: 100%;
+    height: 30px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style de la zone de texte */
+.textarea-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.tuile{
+    width: 80px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tuile-adversaire{
+    width: 80px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.question-joueur{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center
+
+}
+
+.zone-reponse{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+/* PAGE PROFIL */
+.zone-pfp{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.pfp{
+    border-radius: 200%;
+    width: 20%;
+    height: 20%;
+}
+
+.info-joueur-page{
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-pen{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.barre-info-joueur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
